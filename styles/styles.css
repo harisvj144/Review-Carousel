@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-white: #f4f2f2;
+  --clr-gray: #384d48;
+  --clr-nickel: #6e7271;
+  --clr-green: #acad94;
+  --clr-light-gray: #d8d4d5;
+  --clr-platinum: #e2e2e2;
+  --clr-blue: #4281a4;
+  --clr-verdigris: #48a9a6;
+  --clr-timberwolf: #e4dfda;
+  --clr-tan: #d4b483;
+  --clr-fuzzy: #c1666b;
+  --clr-black: #262525;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-white);
+}
+.review { 
+  background: rgb(145, 226, 188); 
+  height: auto; 
+  width: 270px; 
+  border-radius: 15px; 
+  margin: auto; 
+  padding: 10px; 
+  margin-top: 30px; 
+  box-shadow: 5px 5px 5px #32917d; 
+  align-items: center; 
+} 
+
+  
+.review__items { 
+  align-items: center; 
+  justify-content: space-evenly; 
+  width: 250px; 
+  padding: 10px; 
+  align-items: center; 
+} 
+
+  
+.review__items img { 
+  height: 250px; 
+  width: 250px; 
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 15px; 
+} 
+
+.review__items h1 { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 20px; 
+} 
+
+  
+.review__items p { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 14px; 
+} 
+
+  
+.review__button { 
+  text-align: center; 
+  padding: 10px; 
+} 
+  
+.review__button button { 
+  color: rgb(192, 229, 192); 
+  background: green; 
+  font-weight: bold; 
+} 
+
+.review__items { 
+  display: none; 
+}
